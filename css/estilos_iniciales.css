@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap')
+;
+/*receteo de la pagina de css*/
+* { 
+    margin:0 ;
+    padding: 0;
+    font-family:Protest Riot;
+/*cominzo del modelado del header*/
+
+}
+
+.colorheader{
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+}
+.logo{
+    display: flex;
+    text-align: right;
+}
+.encabezado{
+    
+   text-align: right;
+    font-size: 3rem;
+    color: red;
+   
+}
+/*posicionamineto de la lista de navegacion*/
+.listanav{
+    
+    text-align: right;
+}
+/*modificacion del tamaño y el estilo de los items de la lista de navegacion*/
+.listanav .itemnav{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    font-size: 2rem;
+   
+
+    /* color a los item de la lista de navegacion */       
+    .linknav {       
+        color: red;
+    }
+
+}
+/*cominezo del modelado del body*/
+.seccionprincipal{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/img/bandera.jpg);
+    background-size: cover;
+    color: blue;
+    .tituloprincipal{
+        color: white;
+        display: grid;
+
+
+    }
+}
+.subtitulo1{
+    color: white;
+}

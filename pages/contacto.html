@@ -5,30 +5,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contacto - Club Atletico Libertad -</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
         <body>
-            <header class="colorheader">
-                <h2 class="encabezado">Libertad Hockey</h2>
-                <a class="logo" href="../index.html">
-                    <img src="../assets/img/logo_chico.webp" alt="logo del club">  
-                </a>
-                <nav class="listanav">
-                    <ul>
-                        <li class="itemnav">
-                            <a class="linknav" href="../index.html">Inicio</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./categorias.html">Categorias</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./elclub.html">El Club</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./logros.html">Logros</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./noticias.html">Noticias</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-navar font_color">
+                    <div class="container-fluid">
+                      <a class="navbar-brand " href="../index.html">
+                        <img src="../assets/img/logo_chico.webp" alt="logo del club"></a>
+                        <div>
+                        <h2>Libertad Hockey</h2>
+                        </div>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end" >
+                          <li class="nav-item">
+                            <a class="nav-link active color_fuente" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./categorias.html">Categorias</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./elclub.html">El Club</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./logros.html">Logros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./noticias.html">Noticias</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>                              
             </header>
 
             <main>
@@ -37,10 +52,10 @@
                     <p>Dejanos tus mail y tus datos para poder contractarnos con vos</p>
 
                     <form action="./">
-                        <input type="mail" placeholder="mail@mail" required id="email" name="email">
-                        <input type="text" placeholder="ingrese su nombre" required id="nombre" name="nombre">
-                        <input type="text" placeholder="ingrese su apellido" required id="apellido" name="apellido">
-                        <input type="tel" placeholder="223123123" required id="telefono" name="telefono">
+                        <input type="mail" placeholder="mail@mail" required id="email" name="email" label="mail">
+                        <input type="text" placeholder="ingrese su nombre" required id="nombre" name="nombre" label="nombre">
+                        <input type="text" placeholder="ingrese su apellido" required id="apellido" name="apellido" label="apellido">
+                        <input type="tel" placeholder="223123123" required id="telefono" name="telefono" label="telefono">
                         <input type="submit" value="Enviar datos">
 
                     </form>
@@ -58,6 +73,6 @@
                 <p>Coordinador Juan Pablo Gallo Tel: 223-5954909</p>
                 <p>Infantiles Coordinadora Rocio Gallo Tel: 223-5926600</p>
             </footer>
-                
+          <script src="../js/bootstrap.bundle.min.js"></script>        
         </body>
 </html>

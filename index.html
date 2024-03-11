@@ -5,38 +5,53 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Club Atletico Libertad</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/estilos.css">
     </head>
         <body>
-            <header class="colorheader">
-                <h2 class="encabezado">Libertad Hockey</h2>
-                <a class="logo" href="index.html">
-                    <img src="./assets/img/logo_chico.webp" alt="logo del club">  
-                </a>
-                <nav class="listanav">
-                    <ul>
-                        <li class="itemnav">
-                            <a class="linknav" href="#">Inicio</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./pages/categorias.html">Categorias</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./pages/elclub.html">El Club</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./pages/logros.html">Logros</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./pages/noticias.html">Noticias</a></li>
-                        <li class="itemnav">
-                            <a class="linknav" href="./pages/contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-navar font_color">
+                    <div class="container-fluid">
+                      <a class="navbar-brand " href="#">
+                        <img src="./assets/img/logo_chico.webp" alt="logo del club"></a>
+                        <div>
+                        <h2>Libertad Hockey</h2>
+                        </div>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end" >
+                          <li class="nav-item">
+                            <a class="nav-link active color_fuente" aria-current="page" href="#">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/categorias.html">Categorias</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/elclub.html">El Club</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/logros.html">Logros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/noticias.html">Noticias</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>                              
             </header>
 
-            <main>
+            <main class="container-fluid m-0 p-0">
                 <!--seccion principal-->
-                <section class="seccionprincipal">
-                    <h1 class="tituloprincipal">Club Atletico Libertad</h1>
-                    <h2 class="subtitulo1">Libertad Hockey</h2>
-                    <h3 class="subtitulo1">Mas Juntos que nunca</h3>
+                <section class="container-fluid w-100 h-100 img_fondo">
+                    <h1 class="text-lg-center color-fuente">Club Atletico Libertad</h1>
+                    <h2>Libertad Hockey</h2>
+                    <h3>Mas Juntos que nunca</h3>
                     <img src="./assets/img/logo.webp" alt="Logo del club">
                 </section>
 
@@ -82,7 +97,7 @@
                 </section>
             </main>
 
-            <footer>
+            <footer class="container-fluid">
                 <h2>Libertad Hockey</h2>
                 <h3>Horas de Entrenamiento</h3>
                 <p>Lunes y Miercoles de 20 a 22 Hs Lugar: CMH</p>
@@ -91,6 +106,6 @@
                 <p>Coordinador Juan Pablo Gallo Tel: 223-5954909</p>
                 <p>Infantiles Coordinadora Rocio Gallo Tel: 223-5926600</p>
             </footer>
-                
+          <script src="./js/bootstrap.bundle.min.js"></script>        
         </body>
 </html>
