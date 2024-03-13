@@ -26,19 +26,19 @@
                             <a class="nav-link active color_fuente" aria-current="page" href="#">Inicio</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="./pages/categorias.html">Categorias</a>
+                            <a class="nav-link color-rojo" href="./pages/categorias.html">Categorias</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="./pages/elclub.html">El Club</a>
+                            <a class="nav-link color-rojo" href="./pages/elclub.html">El Club</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="./pages/logros.html">Logros</a>
+                            <a class="nav-link color-rojo" href="./pages/logros.html">Logros</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="./pages/noticias.html">Noticias</a>
+                            <a class="nav-link color-rojo" href="./pages/noticias.html">Noticias</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            <a class="nav-link color-rojo" href="./pages/contacto.html">Contacto</a>
                           </li>
                         </ul>
                       </div>
@@ -48,48 +48,65 @@
 
             <main class="container-fluid m-0 p-0">
                 <!--seccion principal-->
-                <section class="container-fluid w-100 h-100 img_fondo">
-                    <h1 class="text-lg-center color-fuente">Club Atletico Libertad</h1>
-                    <h2>Libertad Hockey</h2>
-                    <h3>Mas Juntos que nunca</h3>
-                    <img src="./assets/img/logo.webp" alt="Logo del club">
+                <section class="contenedor">
+                    <div class="fondo">
+                        <h1 class="d-flex text-white fuente justify-content-center">Club Atletico Libertad</h1>
+                    <div class="d-flex font_color flex-column align-items-center justify-content-center margen_personalizado">
+                        <P>Libertad Hockey</P>
+                        <p>Mas Juntos que nunca</p>
+                        <img src="./assets/img/logo_chico.webp" alt="Logo del club">
+                    </div>
+                  </div>
                 </section>
 
                 <!--seccion sponsor-->
-                <section>
-                    <h2>Sponsor 2022</h2>
-                    <p>Si queres ser sponsor de nuestro club comunicate con Nosotros</p>
-                    <img src="./assets/img/camisetas sponsors.webp" alt="foto de la camiseta">
+                <section class="conteiner row mt-1">
+                  <div class=" col" >  
+                    <h2 class="text-center fuente-sponsor">Sponsor 2022</h2>
+                      <p class="text-center fuente-sponsor1">Si queres ser sponsor de nuestro club comunicate con Nosotros <a href="./pages/contacto.html"> haciendo click aqui</a></p>
+                  </div>
+                    <img class=" col" src="./assets/img/camisetas sponsors.webp" alt="foto de la camiseta">
                 </section>
 
                 <!--seccion de divisiones-->
+              <div class="container-fluid">  
                 <section>
-                    <h2>Primera Divsión</h2>
-                    <img src="./assets/img/juntadaemenina.jpg" alt="foto del equipo femenino">
-                    <h3>Plantel Superior Femenino</h3>
-                    <p>El hockey Femenino comenzo en 2006, en parte de escuelita, su primera división fue presentada ante el torneo de la Asociacion Amateur Marplatense de Hockey(AAMH) en el año 2013.
+                  <div class="row">
+                      <h2 class="text-center pt-2 bg-primary bg-primary1 mt-2">Primera Divsión Femenina y Mascilina</h2>
+                      <img class="col"  src="./assets/img/juntadaemenina.jpg" alt="foto del equipo femenino">
+                      <div class="col pt-5">
+                        <p class="text-center fs-1 mt-5"> Plantel Superior Femenino</p>
+                        <p class="text-center fs-2 mt-5">El hockey Femenino comenzo en 2006, en parte de escuelita, su primera división fue presentada ante el torneo de la Asociacion Amateur Marplatense de Hockey(AAMH) en el año 2013.
                         Logró el ascenso a la categoria B en el año 2018
-                    </p>
-                    <img src="./assets/img/juntadamasculina.webp" alt="foto del equipo masculino">
-                    <h3>Plantel Superior Masculino</h3>
-                    <p>El Hockey masculino comenzó en 2017, en estilo Seven, y en 2019 fue Presentado en el torneo de la Asociación Amateur Marplatense de Hockey (AAMH)</p>
+                        </p>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <p class="text-center fs-1 mt-5">Plantel Superior Masculino</p>
+                      <El class="text-center fs-2 mt-5">El Hockey masculino comenzó en 2017, en estilo Seven, y en 2019 fue Presentado en el torneo de la Asociación Amateur Marplatense de Hockey (AAMH)</p>
+                    </div>
+                      <img  class="col" src="./assets/img/juntadamasculina.webp" alt="foto del equipo masculino">
+                       
+                  </div>   
                 </section>
 
                 <!--Seccion Infantiles-->
-                <section>
-                    <h2>Nuestras Infantiles</h2>
-                    <a href="./pages/categorias.html">Ver todas Las Categorias</a>
-                    <img src="./assets/img/9y10.webp" alt="foto de la categoria 9 y 10">
-                    <h3>9 NA Y 10 MA </h3>
-                    <img src="./assets/img/8.webp" alt="foto de la categoria 8">
-                    <h3>8 VA</h3>
-                    <img src="./assets/img/7.webp" alt="foto de la categoria 7">
-                    <h3>7 MA</h3>
-                    <img src="./assets/img/6.webp" alt="foto de la categoria 6">
-                    <h3>6 TA</h3>
+                <section class="container-fluid row justify-content-center">
+                    <h2 class="text-center pt-2 bg-primary bg-primary1 mt-2">Nuestras Infantiles</h2>
+                    <img class="col-2" src="./assets/img/9y10.webp" alt="foto de la categoria 9 y 10">
+                    <h3 class="col-1">9 NA Y 10 MA</h3>
+                    <img class="col-2" src="./assets/img/8.webp" alt="foto de la categoria 8">
+                    <h3 class="col-1">8 VA</h3>
+                    <img class="col-2" src="./assets/img/7.webp" alt="foto de la categoria 7">
+                    <h3 class="col-1">7 MA</h3>
+                    <img class="col-2" src="./assets/img/6.webp" alt="foto de la categoria 6">
+                    <h3 class="col-1">6 TA</h3>
+                    <a class="col-3 pt-5 fs-3" href="./pages/categorias.html">Ver todas Las Categorias</a>
 
                 </section>
-
+              </div>
                 <!--Seccion de mapa-->
                 <section>
                     <h4>Nuestra Ubicacion</h4>

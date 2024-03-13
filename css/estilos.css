@@ -11,15 +11,43 @@ body{
     font-family: Protest Riot;
      color: rgb(29, 28, 28);
 }
+/*estilos header*/
 .bg-navar{
     background-color: rgb(75, 75, 245);
+
 }
 .font_color{
     color: rgb(247, 20, 20);
+
 }
-.img_fondo{
-    background-image: url(../assets/img/bandera612x612.jpg);
+.contenedor{
+    height: 90vh;
+    .fondo{
+        background-image: url(../assets/img/bandera612x612.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fuente{
+        font-size: 10vh;
+    }
+    .margen_personalizado{
+        padding-top:10vh;
+        font-size:10vh;
+    }
 }
-.color-fuente{
-    color: white;
+.fuente-sponsor{
+   margin-top: 15vh;
+    font-size: 10vh;
+    color: rgba(39, 39, 240, 0.904);
 }
+.fuente-sponsor1{
+    font-size: 5vh;
+}
+.bg-primary1{
+    color: rgb(247, 23, 23);
+}
+
+
+
