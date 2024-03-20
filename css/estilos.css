@@ -48,6 +48,18 @@ body{
 .bg-primary1{
     color: rgb(247, 23, 23);
 }
+.tarjetas{
+    object-fit: cover;
+}
 
+.btn-primary{
+    color:rgb(245, 103, 103);
+    border-radius: 15px  
+}
+.footefondo{
+    background-color: rgb(167, 147, 240);
+}
 
-
+.colorfondo{
+    background-color:rgb(75, 75, 245);
+}
