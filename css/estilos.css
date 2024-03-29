@@ -21,21 +21,20 @@ body{
 
 }
 .contenedor{
-    height: 90vh;
+    height: 100vh;
     .fondo{
         background-image: url(../assets/img/bandera612x612.jpg);
-        height: 100%;
+        height: 100vh;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .fuente{
+    .fuenteinicio{
+        padding-top: 12%;
         font-size: 10vh;
+        
     }
-    .margen_personalizado{
-        padding-top:10vh;
-        font-size:10vh;
-    }
+    
 }
 .fuente-sponsor{
    margin-top: 15vh;
