@@ -22,19 +22,14 @@ body{
 }
 .contenedor{
     height: 100vh;
-    .fondo{
-        background-image: url(../assets/img/bandera612x612.jpg);
-        height: 100vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .fuenteinicio{
+    background-image: url(../assets/img/bandera612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fuenteinicio{
         padding-top: 12%;
         font-size: 10vh;
-        
-    }
-    
 }
 .fuente-sponsor{
    margin-top: 15vh;
@@ -61,4 +56,7 @@ body{
 
 .colorfondo{
     background-color:rgb(75, 75, 245);
+}
+.rounded-circle1{
+    border-radius: 90px;
 }
