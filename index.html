@@ -8,7 +8,7 @@
         <title>Club Atletico Libertad | Hockey Libertad</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./scss/estilos.css">
     </head>
         <body>
             <header>
@@ -48,10 +48,10 @@
                   </nav>                              
             </header>
 
-            <main class="container-fluid m-0 p-0">
+            <main class="container_fluid overflow-auto">
                 <!--seccion principal-->
-                <section  class="contenedor">
-                    <div class=" conteiner  tracking-in-contract-bck-top  ">
+                <section class=" conteiner-fluid">
+                    <div  class="conteiner-fluid contenedor" >
                         <h1 class=" row fs-1 justify-content-center pt-5 ">Club Atletico Libertad</h1>
                         <P class="row fs-1 justify-content-center pt-5">Libertad Hockey</P>
                         <p class=" row fs-1 justify-content-center pt-5">Mas Juntos que nunca</p>
@@ -63,34 +63,35 @@
                 </section>
               
                 <!--seccion sponsor-->
-                <section class="conteiner row mt-1">
+                <section class=" row mt-1">
                   <div class=" col" >  
                     <h2 class="text-center fuente-sponsor">Sponsor 2022</h2>
                       <p class="text-center fuente-sponsor1">Si queres ser sponsor de nuestro club comunicate con Nosotros <a  class=" btn btn-outline-primary" href="./pages/contacto.html"> haciendo click aqui</a></p>
                   </div>
-                    <img class="col" src="./assets/img/camisetas sponsors.webp" alt="foto de la camiseta">
+                    <img class="col shadow-lg" src="./assets/img/camisetas sponsors.webp" alt="foto de la camiseta">
                 </section>
 
                 <!--seccion de divisiones-->
+                <section>
                 <h2 class="text-center pt-2 bg-primary bg-primary1 mt-2"> Primera division Femenina y Masculina</h2>
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                   <div class="col">
-                    <div class="card">
+                    <div class="card shadow-lg">
                       <img src="./assets/img/Juntadafemenina3.jpg" class="card-img-top" alt="foto del equipo femenino">
                       <div class="card-body">
-                        <h5 class="card-title">Primera Divsión Femenina y Mascilina</h5>
+                        <h5 class="card-title bg-primary1 bg-primary text-center">Primera Divsión Femenina y Mascilina</h5>
                         <p class="card-text">El hockey Femenino comenzo en 2006, en parte de escuelita, su primera división fue presentada ante el torneo de la Asociacion Amateur Marplatense de Hockey(AAMH) en el año 2013.
                           Logró el ascenso a la categoria B en el año 2018</p>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <div class="card">
+                    <div class="card shadow-lg">
+                      <img src="./assets/img/juntadamasculina.webp" class="card-img-top" alt="foto del equipo masculino">
                       <div class="card-body">
-                        <h5 class="card-title">Plantel Superior Masculino</h5>
+                        <h5 class="card-title bg-primary bg-primary1 text-center">Plantel Superior Masculino</h5>
                         <p class="card-text">El Hockey masculino comenzó en 2017, en estilo Seven, y en 2019 fue Presentado en el torneo de la Asociación Amateur Marplatense de Hockey (AAMH) logrando asi su ascenso y llegando a competencias nacionales</p>
                       </div>
-                      <img src="./assets/img/juntadamasculina.webp" class="card-img-top" alt="foto del equipo masculino">
                     </div>
                   </div>
                 </div> 
@@ -98,34 +99,34 @@
                 <h2 class="text-center pt-2 bg-primary bg-primary1 mt-2">Nuestras Infantiles</h2>
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                   <div class="col">
-                    <div class="card">
+                    <div class="card shadow-lg">
                       <img src="./assets/img/9y10.webp" class="card-img-top" alt="foto de la categoria 9 y 10">
                       <div class="card-body">
-                        <h5 class="card-title text-center">9 NA Y 10 MA</h5>
+                        <h5 class="card-title text-center bg-primary bg-primary1 fs-2">9 NA Y 10 MA</h5>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <div class="card">
+                    <div class="card shadow-lg">
                       <img src="./assets/img/8.webp" class="card-img-top" alt="foto de la categoria 8">
                       <div class="card-body">
-                        <h5 class="card-title text-center">8 VA</h5>
+                        <h5 class="card-title text-center bg-primary bg-primary1 fs-2">8 VA</h5>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <div class="card">
+                    <div class="card shadow-lg">
                       <img src="./assets/img/7.webp" class="card-img-top" alt="foto de la categoria 7">
                       <div class="card-body">
-                        <h5 class="card-title text-center">7 MA</h5>
+                        <h5 class="card-title text-center bg-primary bg-primary1 fs-2">7 MA</h5>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <div class="card">
+                    <div class="card shadow-lg">
                       <img src="./assets/img/6.webp" class="card-img-top" alt="foto de la categoria 6">
                       <div class="card-body">
-                        <h5 class="card-title">6 TA</h5>
+                        <h5 class="card-title text-center bg-primary bg-primary1 fs-2">6 TA</h5>
                       </div>
                     </div>
                   </div>
@@ -134,10 +135,13 @@
                      <a class="btn btn-outline-primary" href="./pages/categorias.html">Ver todas Las Categorias</a>
                 </section>
               </div>
+            </section>
                 <!--Seccion de mapa-->
-                <section class="container-fluid  row justify-content-between mt">
+                <section class="row">
                     <h4 class="text-center bg-primary bg-primary1">Nuestra Ubicacion</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50289.94979956351!2d-57.5976198133997!3d-38.020938412351235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dec3ea14cd01%3A0x865fc1c67d984744!2sAm%C3%A9rico%20Ra%C3%BAl%20Canosa%20517%2C%20B7608%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1707858932215!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="row" >
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50289.94979956351!2d-57.5976198133997!3d-38.020938412351235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dec3ea14cd01%3A0x865fc1c67d984744!2sAm%C3%A9rico%20Ra%C3%BAl%20Canosa%20517%2C%20B7608%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1707858932215!5m2!1ses-419!2sar" width="100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
                 </section>
             </main>
 

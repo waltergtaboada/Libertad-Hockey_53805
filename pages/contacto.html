@@ -8,7 +8,7 @@
         <title>Contacto | Hockey Libertad </title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="../scss/estilos.css">
     </head>
         <body>
             <header>
@@ -48,40 +48,67 @@
                   </nav>                              
             </header>
 
-            <main>
-                <section>
-                    <h1>Contacto</h1>
-                    <p>Dejanos tu mail y tus datos para poder contractarnos con vos</p>
+            <main class="container-fluid m-0 p-0">
+              <section class="row justify-content-center">
+                <h1 class="text-center bg-primary bg-primary1">Contacto</h1>
+                <p class="fs-3 text-center">Dejanos tu mail y tus datos para poder contractarnos con vos</p>
+                <div class="col text-center">
+                  <form action="./">
+                    <!--comienzpo casilleros de formularios-->
+                       <div class="row mb-1">
+                         <label for="colFormLabel" class="col-sm-1 col-form-label">Email:</label>
+                         <div class="col-sm-10">
+                          <input type="mail" placeholder="mail@mail" required id="email" name="email" label="mail">
+                         </div>
+                       </div>
+                       <div class="row mb-1">
+                        <label for="colFormLabel" class="col-sm-1 col-form-label">Nombre:</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="ingrese su nombre" required id="nombre" name="nombre" label="nombre">
+                        </div>
+                       </div>
+                      <div class="row mb-1">
+                         <label for="colFormLabel" class="col-sm-1 col-form-label">Apellido:</label>
+                        <div class="col-sm-10">
+                           <input type="text" placeholder="ingrese su apellido" required id="apellido" name="apellido" label="apellido">
+                        </div>
+                     </div>
+                    <div class="row mb-1">
+                      <label for="colFormLabel" class="col-sm-1 col-form-label">Telefono:</label>
+                      <div class="col-sm-10">
+                        <input type="tel" placeholder="223123123" required id="telefono" name="telefono" label="telefono">
+                      </div>
+                    </div>
+                    <input class="btn btn-primary text-center" type="submit" value="Enviar datos">
+                </form> 
+                </div>
+                <div class="col text-center ">
+                  <p>Si Amas El Jockey como nosotros Que esperas para contactarnos</p>
+                  <img src="../assets/img/ioh.jpg" alt="amo el Hockey" height="150px">
+                </div>
+                <div class="col text-center">
+                    
+                      <img src="../assets/img/amojockey.jpg" alt="imgen de dos palos de jockey formando un corazon" class="img-fluid">
+                </div>
+              </section>
 
-                    <form action="./">
-                        <!--comienzpo casilleros de formularios-->
-                        <div class="row mb-1">
-                          <label for="colFormLabel" class="col-sm-1 col-form-label">Email</label>
-                          <div class="col-sm-10">
-                            <input type="mail" placeholder="mail@mail" required id="email" name="email" label="mail">
-                          </div>
-                        </div>
-                        <div class="row mb-1">
-                          <label for="colFormLabel" class="col-sm-1 col-form-label">Nombre</label>
-                          <div class="col-sm-10">
-                            <input type="text" placeholder="ingrese su nombre" required id="nombre" name="nombre" label="nombre">
-                          </div>
-                        </div>
-                        <div class="row mb-1">
-                          <label for="colFormLabel" class="col-sm-1 col-form-label">Apellido</label>
-                          <div class="col-sm-10">
-                            <input type="text" placeholder="ingrese su apellido" required id="apellido" name="apellido" label="apellido">
-                          </div>
-                        </div>
-                        <div class="row mb-1">
-                          <label for="colFormLabel" class="col-sm-1 col-form-label">Telefono</label>
-                          <div class="col-sm-10">
-                            <input type="tel" placeholder="223123123" required id="telefono" name="telefono" label="telefono">
-                          </div>
-                        </div>
-                        <input class="btn btn-primary text-center" type="submit" value="Enviar datos">
-                    </form>
-                </section>
+
+
+
+
+
+
+
+
+
+
+                <section class=" conteiner row">
+                      
+                      
+                    <div class="conteiner col ">
+                      
+                    </div> 
+              </section>
                 
             </main>
 

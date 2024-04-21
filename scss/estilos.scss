@@ -2,14 +2,20 @@
 
 /*reseteo inicial*/
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
+
 
 /*modificaciones propias del body*/
 body{
+    padding: 0;
     font-family: Protest Riot;
-     color: rgb(29, 28, 28);
+    color: rgb(29, 28, 28);
+}
+.row{
+  margin: 0;
 }
 /*estilos header*/
 .bg-navar{
@@ -22,10 +28,11 @@ body{
 }
 .contenedor{
     height: 80vh;
-    width: 100%;
+    width:100%;
     background-image: url(../assets/img/bandera612x612.jpg);
     background-position: center;
     background-size:cover;
+    object-fit: cover;
 }
 
 /*animacion letras de la bandera*/
@@ -75,6 +82,9 @@ body{
 .fuente-sponsor1{
     font-size: 5vh;
 }
+.text-light1{
+  color: rgb(8, 8, 8);
+}
 .bg-primary1{
     color: rgb(247, 23, 23);
 }
@@ -96,4 +106,27 @@ body{
 }
 .rounded-circle1{
     border-radius: 90px;
+}
+.card-body{
+ /* background-color: rgba(5, 5, 248, 0.973);*/
+ background-image: url(../assets/img/dospalosdehockey.jpg);
+}
+.clubfondo{
+  background-image: url(../assets/img/palotarjetas.jpg);
+}
+.colorelclub{
+  color:rgb(250, 248, 248);
+}
+.imgtam{
+  width: 100px;
+  height: 100px;
+}
+/*el club */
+.p{
+  line-height: 2rem;
+}
+
+.map{
+  
+  width: 350px;
 }

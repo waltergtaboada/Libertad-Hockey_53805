@@ -8,7 +8,7 @@
         <title>Categorias | Hockey Libertad</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="../scss/estilos.css">
     </head>
         <body>
             <header>
@@ -48,94 +48,103 @@
                   </nav>                              
             </header>
 
-            <main class="container-fluid m-0 p-0">
+            <main class="container-fluid m-0 p-0 overflow-auto">
                  <section>
                        <h1 class="row bg-primary bg-primary1 justify-content-center">Divisiones</h1>
                  </section>               
                   
                  <section>
-                        <!--inicio seccion tarjetas 1 columna-->
-                        <div class="card-group">
-                          <div class="card">
-                            <img src="../assets/img/9y10categorias.webp" class="card-img-top" alt="Foto de la 9y 10 Categoria">
-                            <div class="card-body">
-                              <h5 class="card-title text-center">Categoria 9 na y 10 ma</h5>
-                              <p class="card-text">Entrenadoras: Karen y Camila.</p>
-                              <p class="card-text"><small class="text-muted">Esta división abarca la edad de 4 a 10 años</small></p>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <img src="../assets/img/8.webp" class="card-img-top" alt="Foto de la octava Categoria">
-                            <div class="card-body">
-                              <h5 class="card-title text-center">Categoria 8 va</h5>
-                              <p class="card-text">Entrenadora: Milagros</p>
-                              <p class="card-text"><small class="text-muted">Esta división abarca la edad de 10 a 12 años</small></p>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <img src="../assets/img/7macategoria.webp" class="card-img-top" alt="Foto de la 7 Categoria">
-                            <div class="card-body">
-                              <h5 class="card-title text-center">Categoria 7 ma</h5>
-                              <p class="card-text">Entrenadora: Rocío</p>
+                  <!--inicio seccion 4 tarjetas-->
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../assets/img/9y10categorias.webp" class="card-img-top p-3" alt="Foto de la 9y 10 Categoria">
+                        <div class="card-body">
+                          <h5 class="card-title text-center bg-primary1 bg-primary">Categoria 9 na y 10 ma</h5>
+                          <p class="card-text text-light1">Entrenadoras: Karen y Camila.</p>
+                          <p class="card-text"><small class="text-muted">Esta división abarca la edad de 4 a 10 años</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../assets/img/8-3.jpg" class="card-img-top p-3" alt="Foto de la octava Categoria">
+                      <div class="card-body">
+                        <h5 class="card-title text-center bg-primary1 bg-primary">Categoria 8 va</h5>
+                        <p class="card-text text-light1">Entrenadora: Milagros</p>
+                        <p class="card-text"><small class="text-muted">Esta división abarca la edad de 10 a 12 años</small></p>                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../assets/img/7macategoria.webp" class="card-img-top p-3" alt="Foto de la 7 Categoria">
+                        <div class="card-body">
+                              <h5 class="card-title text-center bg-primary1 bg-primary">Categoria 7 ma</h5>
+                              <p class="card-text text-light1">Entrenadora: Rocío</p>
                               <p class="card-text"><small class="text-muted">Abaraca las edades de 12 a 14 años</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../assets/img/6tacategoria.webp" class="card-img-top p-3" alt="Foto de la 6 ta Categoria">
+                        <div class="card-body">
+                              <h5 class="card-title text-center bg-primary1 bg-primary">Categoria 6 Ta</h5>
+                              <p class="card-text text-light1">Entrenadora: Rocío.</p>
+                              <p class="card-text"><small class="text-muted">Abarca la edad de 14 a 16 años</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--inicio seccion de 2 tarjetas mas para inferiores-->
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../assets/img/5-1tacategoria.PNG" class="card-img-top p-3" alt="Foto de la quinta Categoria">
+                        <div class="card-body">
+                          <h5 class="card-title text-center bg-primary1 bg-primary">Categoria 5 Ta</h5>
+                          <p class="card-text text-light1">Entrenador: Juan Pablo</p>
+                          <p class="card-text"><small class="text-muted">abarca las edades de 16 a 19 años</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../assets/img/intermediacategoria.webp" class="card-img-top p-3" alt="Foto de la Categoria Intermedia">
+                      <div class="card-body">
+                        <h5 class="card-title text-center bg-primary1 bg-primary">Categoria Intermedia</h5>
+                        <p class="card-text text-light1">Entrenador: Juan Pablo</p>
+                        <p class="card-text"><small class="text-muted">+ de 18 años</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                <!--equipo femenino y masculino-->
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                      <div class="col">
+                        <div class="card shadow-lg p-3">
+                          <img src="../assets/img/juntadaemenina.jpg" class="card-img-top p-3" alt="juntada del equipo femenino">
+                          <div class="card-body">
+                             <h5 class="card-title text-center bg-primary1 bg-primary">Equipo Femenino de 1º</h5>
+                             <p class="card-text text-light1">Entrenador: Juan Pablo</p>
+                             <p class="card-text"><small class="text-muted">+ de 18 años</small></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-lg p-3">
+                            <img src="../assets/img/1ramassculina.webp" class="card-img-top p-3" alt="...">
+                             <div class="card-body">
+                               <h5 class="card-title text-center bg-primary1 bg-primary">Equipo Masculino de 1º</h5>
+                               <p class="card-text text-light1">Entrenadora: Florencia</p>
+                               <p class="card-text"><small class="text-muted">+ de 18 años</small></p>
                             </div>
                           </div>
                         </div>
-                        <!--incio seccion tarjetas 2 columna-->
-                        <div class="card-group">
-                          <div class="card">
-                            <img src="../assets/img/6tacategoria.webp" class="card-img-top" alt="Foto de la 6 ta Categoria">
-                            <div class="card-body">
-                              <h5 class="card-title text-center">Categoria 6 Ta</h5>
-                              <p class="card-text">Entrenadora: Rocío.</p>
-                              <p class="card-text"><small class="text-muted">Abarca la edad de 14 a 16 años</small></p>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <img src="../assets/img/5tacategoria.PNG" class="card-img-top" alt="Foto de la quinta Categoria">
-                            <div class="card-body">
-                              <h5 class="card-title text-center">Categoria 5 Ta</h5>
-                              <p class="card-text">Entrenador: Juan Pablo</p>
-                              <p class="card-text"><small class="text-muted">abarca las edades de 16 a 19 años</small></p>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <img src="../assets/img/intermediacategoria.webp" class="card-img-top" alt="Foto de la Categoria Intermedia">
-                            <div class="card-body">
-                              <h5 class="card-title text-center">Categoria Intermedia</h5>
-                              <p class="card-text">Entrenador: Juan Pablo</p>
-                              <p class="card-text"><small class="text-muted">+ de 18 años</small></p>
-                            </div>
-                          </div>
-                        </div>   
-
-                        <!--para poner dos tarjetas-->
-                        <div class="row row-cols-1 row-cols-md-2 g-4">
-                          <div class="col">
-                            <div class="card">
-                              <img src="../assets/img/juntadaemenina.jpg" class="card-img-top" alt="juntada del equipo femenino">
-                              <div class="card-body">
-                                <h5 class="card-title text-center">Equipo Femenino de 1º</h5>
-                                <p class="card-text">Entrenador: Juan Pablo</p>
-                                <p class="card-text"><small class="text-muted">+ de 18 años</small></p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card">
-                              <img src="../assets/img/1ramassculina.webp" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title text-center">Equipo Masculino de 1º</h5>
-                                <p class="card-text">Entrenadora: Florencia</p>
-                                <p class="card-text"><small class="text-muted">+ de 18 años</small></p>
-                              </div>
-                            </div>
-                          </div>
                  </section>
-                
-            </main>
+          </main>
 
-            <footer class="container-fluid row footefondo mt-2 p-0">
+          <footer class="container-fluid row footefondo mt-2 p-0">
               <div class="col text-center"> 
                  <h2>Libertad Hockey</h2>
                  <h3>Horas de Entrenamiento</h3>
@@ -150,7 +159,7 @@
                   <p>Infantiles Coordinadora Rocio Gallo Tel: 223-5926600</p>
                   <a href="https://api.whatsapp.com/send?phone=22359229900" target="_blank"><img src="../assets/img/whatsapp.svg" alt=""></a>
              </div col> 
-           </footer>
+          </footer>
           <script src="../js/bootstrap.bundle.min.js"></script>         
         </body>
 </html>
