@@ -1,0 +1,29 @@
+.row{
+    margin: 0;
+  }
+  .text-light1{
+    color: rgb(8, 8, 8);
+  }
+  
+  .tarjetas{
+      object-fit: cover;
+  }
+  .btn-outline-primary{
+    color:rgb(245, 103, 103);
+    border-radius: 15px;  
+}
+
+.imgtam{
+  width: 100px;
+  height: 100px;
+}
+.map{
+  width: 250px;
+}
+.bg-primary1{
+  color:rgb(247, 20, 20)
+}
+.font_color{
+ 
+  @include colorfuentenavegacion;
+}

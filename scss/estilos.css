@@ -1,29 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
-/*reseteo inicial*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: 0;
-}
-
-/*modificaciones propias del body*/
 body {
   padding: 0;
   font-family: Protest Riot;
   color: rgb(29, 28, 28);
 }
 
-.row {
-  margin: 0;
-}
-
-/*estilos header*/
 .bg-navar {
   background-color: rgb(75, 75, 245);
-}
-
-.font_color {
-  color: rgb(247, 20, 20);
 }
 
 .contenedor {
@@ -64,12 +47,46 @@ body {
   font-size: 5vh;
 }
 
-.text-light1 {
-  color: rgb(8, 8, 8);
+.rounded-circle1 {
+  border-radius: 90px;
 }
 
-.bg-primary1 {
-  color: rgb(247, 23, 23);
+.card-body {
+  /* background-color: rgba(5, 5, 248, 0.973);*/
+  /*background-image: url(../assets/img/dospalosdehockey.jpg);*/
+  background-image: url(../assets/img/palosandres1.jpg);
+}
+
+.clubfondo {
+  background-image: url(../assets/img/palotarjetas.jpg);
+}
+
+.colorelclub {
+  color: rgb(250, 248, 248);
+}
+
+.p {
+  line-height: 2rem;
+}
+
+.footefondo {
+  background-color: rgb(167, 147, 240);
+}
+
+.colorfondo {
+  background-color: rgb(75, 75, 245);
+}
+
+.font-color {
+  color: rgb(247, 20, 20);
+}
+
+.row {
+  margin: 0;
+}
+
+.text-light1 {
+  color: rgb(8, 8, 8);
 }
 
 .tarjetas {
@@ -82,32 +99,26 @@ body {
   border-radius: 15px;
 }
 
-.footefondo {
-  background-color: rgb(167, 147, 240);
-}
-
-.colorfondo {
-  background-color: rgb(75, 75, 245);
-}
-
-.rounded-circle1 {
-  border-radius: 90px;
-}
-
-.card-body {
-  /* background-color: rgba(5, 5, 248, 0.973);*/
-  background-image: url(../assets/img/dospalosdehockey.jpg);
-}
-
-.clubfondo {
-  background-image: url(../assets/img/palotarjetas.jpg);
-}
-
-.colorelclub {
-  color: rgb(250, 248, 248);
-}
-
 .imgtam {
   width: 100px;
   height: 100px;
+}
+
+.map {
+  width: 250px;
+}
+
+.bg-primary1 {
+  color: rgb(247, 20, 20);
+}
+
+.font-color {
+  color: rgb(247, 20, 20);
+}
+
+/*reseteo inicial*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }/*# sourceMappingURL=estilos.css.map */
