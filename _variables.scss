@@ -1,1 +1,10 @@
-$nav-color: rgb(247, 20, 20)
+$nav-color: rgb(247, 20, 20);
+
+/*mapa de bordes*/
+$bordes:not(
+    1:1px,
+    2:2px,
+    3:3px,
+    4:4px,
+    5:5px,
+)
